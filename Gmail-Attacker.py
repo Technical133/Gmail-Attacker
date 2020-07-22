@@ -44,8 +44,8 @@ if option == 1:
 else:
    system('clear')
    exit()
-pass_file = open(Password.txt')
-pass_list = Password.txt.readlines()
+pass_file = open(Password list')
+pass_list = Password list.readlines()
 def login():
     i = 0
     user_name = raw_input('enter the target email :')
