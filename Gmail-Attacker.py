@@ -73,5 +73,3 @@ def login():
          else:
             print '[!] password not found => ' + password
 login()
-Contact On Facebook                Technical.naqeeb.133
-Whatapp                                      +923488136133
